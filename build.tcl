@@ -1,14 +1,14 @@
 #!/usr/bin/tclsh
 
 set arch "x86_64"
-set base "tksvg-0.1_git20180216"
+set base "tksvg-0.2_git20190818"
 
 set var [list git clone https://github.com/auriocus/tksvg $base]
 exec >@stdout 2>@stderr {*}$var
 
 cd $base
 
-set var2 [list git checkout 0ffe43230bf4332fd6f65543e872a998aa1c54f2]
+set var2 [list git checkout e21f521f6f101c883211100995fc9c100b668501]
 exec >@stdout 2>@stderr {*}$var2
 
 set var2 [list git reset --hard]
