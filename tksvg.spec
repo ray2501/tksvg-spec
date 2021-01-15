@@ -6,7 +6,7 @@ Name:          tksvg
 Summary:       Read the SVG image format from Tk
 Version:       0.7
 Release:       0
-License:       BSD 3-clause License
+License:       BSD-3-Clause
 Group:         Development/Libraries/Tcl
 Source:        %name-%version.tar.gz
 URL:           https://github.com/oehhar/tksvg
