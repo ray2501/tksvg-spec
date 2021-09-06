@@ -4,7 +4,7 @@
 
 Name:          tksvg
 Summary:       Read the SVG image format from Tk
-Version:       0.8
+Version:       0.9
 Release:       0
 License:       BSD-3-Clause
 Group:         Development/Libraries/Tcl
