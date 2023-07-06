@@ -1,9 +1,9 @@
 #!/usr/bin/tclsh
 
 set arch "x86_64"
-set base "tksvg-0.12"
+set base "tksvg-0.13"
 
-set fileurl "https://github.com/oehhar/tksvg/archive/0.12.tar.gz"
+set fileurl "https://github.com/oehhar/tksvg/archive/0.13.tar.gz"
 
 set var [list wget $fileurl -O $base.tar.gz]
 exec >@stdout 2>@stderr {*}$var
