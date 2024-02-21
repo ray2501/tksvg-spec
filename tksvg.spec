@@ -28,7 +28,7 @@ The actual code to parse and raster the SVG comes from nanosvg.
 sed -i 's/\@INSTALL_PROGRAM\@ \$(INSTALL_FLAGS)/\@INSTALL_PROGRAM\@/g' Makefile.in
 
 %build
-%{__autoconf}
+autoconf
 ./configure \
 	--prefix=%{directory} \
 	--exec-prefix=%{directory} \
