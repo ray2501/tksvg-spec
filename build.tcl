@@ -5,7 +5,7 @@ set base "tksvg-0.14"
 
 set fileurl "https://github.com/oehhar/tksvg/archive/0.14.tar.gz"
 
-set var [list wget $fileurl -O $base.tar.gz]
+set var [list wget2 $fileurl -O $base.tar.gz]
 exec >@stdout 2>@stderr {*}$var
 
 if {[file exists build]} {
